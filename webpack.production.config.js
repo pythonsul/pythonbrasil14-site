@@ -48,7 +48,7 @@ module.exports = {
       sourceMap: devtool && (devtool.indexOf('sourcemap') >= 0 || devtool.indexOf('source-map') >= 0)
     }),
     new CnameWebpackPlugin({
-      domain: '2018.pythonbrasil.org.br',
+      domain: '2018.pythonsul.org',
     }),
   ]
 }
