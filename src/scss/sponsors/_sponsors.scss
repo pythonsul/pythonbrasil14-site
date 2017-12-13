@@ -52,6 +52,9 @@
   &__silver {
     @include sponsor-category($dark-blue);
   }
+  &__support {
+    @include sponsor-category($grey);
+  }
 
   &__list {
     padding: 100px 0px;
