@@ -1,4 +1,4 @@
-# pythonsu2017-site
+# pythonsu2018-site
 
 Python Sul 2018 website (http://pythonsul.org/)
 
