@@ -1,6 +1,6 @@
-# pythonbrasil14-site
+# pythonsu2017-site
 
-Python Brasil 2018 website (http://2018.pythonbrasil.org.br)
+Python Sul 2018 website (http://pythonsul.org/)
 
 ## Requirements
 1. NodeJS
