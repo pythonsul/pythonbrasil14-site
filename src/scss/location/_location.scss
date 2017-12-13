@@ -66,12 +66,12 @@
   }
 }
 
-.holiday-inn-banner {
+.softplan-banner {
   @extend .col-lg-6;
   @extend .col-md-12;
   @extend .col-sm-12;
   @extend .col-12;
-  .holiday-inn-website {
+  .softplan-website {
     text-align: right;
     display: block;
     font-family: 'Advent Pro', sans-serif;
@@ -102,8 +102,8 @@
     }
   }
 
-  .holiday-inn-banner {
-    .holiday-inn-website {
+  .softplan-banner {
+    .softplan-website {
       font-size: 34px;
     }
   }
