@@ -25,11 +25,10 @@
 
   &__body {
     @extend .col-lg-7;
-    background-color: blue;
   }
 
   &__title {
-
+    font-size: 250%;
   }
 
   &__text {
@@ -38,6 +37,5 @@
 
   &__photo {
     @extend .col-lg-3;
-    background-color: yellow;
   }
 }
