@@ -1,4 +1,6 @@
-# pythonsu2018-site
+# [pythonsu2018-site] (http://pythonsul.org)
+
+[![Build/Test](https://img.shields.io/travis/pythonsul/pythonsul2018-site/master.svg?label=travis-ci)][travis]
 
 Python Sul 2018 website (http://pythonsul.org/)
 
