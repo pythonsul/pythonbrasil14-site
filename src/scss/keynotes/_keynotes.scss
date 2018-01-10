@@ -17,11 +17,6 @@
   width: 100%;
   @extend .d-flex;
   @extend .justify-content-center;
-  &:nth-child(odd) {
-    .keynote__summary__body {
-      order: 2;
-    }
-  }
 
   &__body {
     @extend .col-lg-7;
@@ -37,5 +32,21 @@
 
   &__photo {
     @extend .col-lg-3;
+  }
+}
+
+@media (max-width: 767px) {
+  .keynote__summary {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .keynote__summary {
+    &:nth-child(odd) {
+      .keynote__summary__body {
+        order: 2;
+      }
+    }
   }
 }
