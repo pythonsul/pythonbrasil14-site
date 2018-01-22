@@ -3,11 +3,6 @@
   height: 800px;
   height: calc(100vh - 64px);
   max-height: 800px;
-  background-image: url('../img/Python14-MapaRN-cinza-30.svg');
-  background-color: rgba(255, 255, 255, 0.1);
-  background-position: -440px 10px;
-  background-size: 550px;
-  background-repeat: no-repeat;
   .jumbotron-container {
     @extend .container;
     padding: 20px 0px;

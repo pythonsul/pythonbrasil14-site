@@ -10,10 +10,6 @@
   background-repeat: no-repeat;
   .about-container {
     @extend .container;
-    background-image: url('../img/Python14-MapaRN-branco.svg');
-    background-repeat: no-repeat;
-    background-size: 340px;
-    background-position-y: 30px;
     padding-bottom: 100px;
   }
 }
