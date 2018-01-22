@@ -71,12 +71,12 @@
         }
         .jumbotron__main {
           height: 63%;
-          flex: initial;
+          flex: 1 0 400px;
         }
         .jumbotron__side {
           padding-top: 8%;
           margin: initial;
-          flex: initial;
+          flex: 1 0 350px;
         }
       }
     }
