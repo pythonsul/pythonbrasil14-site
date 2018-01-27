@@ -1,5 +1,5 @@
 .map-wrapper {
-  @include make-angle(white, 1)
+  @include make-angle($background-light, 1)
 }
 
 .map-container {

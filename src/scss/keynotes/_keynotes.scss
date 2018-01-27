@@ -1,5 +1,5 @@
 .keynotes-wrapper {
-  @include make-angle (white, 5);
+  @include make-angle ($background-light, 5);
 }
 
 .keynotes-container {

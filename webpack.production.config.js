@@ -34,12 +34,8 @@ module.exports = {
   module: {
     rules: rules
   },
-  plugins: [
+  plugins: config.plugins.concat([
     new ExtractTextPlugin("styles.css"),
-    new HtmlWebpackPlugin({
-      filename: 'index.html',
-      template: './src/index.html'
-    }),
     new webpack.optimize.AggressiveMergingPlugin(),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production')
@@ -50,5 +46,5 @@ module.exports = {
     new CnameWebpackPlugin({
       domain: 'pythonsul.org',
     }),
-  ]
+  ])
 }

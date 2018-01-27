@@ -22,9 +22,6 @@
 }
 
 .header__nav {
-
-
-
   z-index: 999;
   height: 64px;
   width: 100%;
@@ -59,7 +56,7 @@
     margin-top: 100px;
   }
   .header__nav {
-    height: 100px;
+    height: $nav-height;
     margin-bottom: 100px;
   }
 }

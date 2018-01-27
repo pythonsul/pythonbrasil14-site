@@ -7,17 +7,27 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
   entry: './src/js/index.js',
   output: {
-    filename: 'bundle.js', 
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/'
   },
   resolve: {
     alias: {
       'scss': path.resolve(__dirname, 'src/scss'),
+      'templates': path.resolve(__dirname, 'src/templates'),
+      'img': path.resolve(__dirname, 'src/img'),
     }
   },
   devtool: 'source-map',
   module: {
     rules: [
+      {
+        test: /\.html$/,
+        loader: 'html-loader',
+        options: {
+          interpolate: true
+        }
+      },
       {
         test: /\.js$/,
         use: [
@@ -61,7 +71,15 @@ module.exports = {
     new ExtractTextPlugin('styles.css'),
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './src/index.html'
+      template: './src/templates/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'codigo-de-conduta/index.html',
+      template: './src/templates/codigo-de-conduta.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'quero-patrocinar/index.html',
+      template: './src/templates/quero-patrocinar.html'
     })
   ]
 }
