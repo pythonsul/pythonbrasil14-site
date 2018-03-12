@@ -9,6 +9,8 @@ script:
   - ls $TRAVIS_BUILD_DIR
 
 deploy:
+  edge:
+    branch: v1.8.47
   provider: pages
   skip_cleanup: true
   local_dir: "dist"
