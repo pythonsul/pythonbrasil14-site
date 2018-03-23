@@ -87,6 +87,15 @@ $footer-padding-top: 50px;
     max-width: 360px;
     padding-top: 13px;
     padding-bottom: 13px;
+    border-bottom: 10px;
+    font-weight: 600;
+  }
+  .pybr-button--blue {
+    width: 100%;
+    max-width: 360px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 10px;
     font-weight: 600;
   }
   &__actions {
@@ -130,6 +139,14 @@ $footer-padding-top: 50px;
       max-width: auto;
       padding-top: 13px;
       padding-bottom: 13px;
+      border-bottom: 10px;
+    }
+    .pybr-button--blue {
+      width: 100%;
+      max-width: auto;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      border-bottom: 10px;
     }
     &__actions {
       margin-top: 0px;

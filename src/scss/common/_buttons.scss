@@ -1,4 +1,4 @@
-@mixin color-modifiers($base-class, $dark, $light) {
+@mixin color-modifiers($base-class, $dark, $light, $blue) {
   &--dark {
     @extend #{$base-class};
     background-color: $dark;
@@ -7,6 +7,11 @@
   &--light {
     @extend #{$base-class};
     background-color: $light;
+  }
+
+  &--blue {
+    @extend #{$base-class};
+    background-color: $blue;
   }
 }
 
@@ -31,7 +36,7 @@
     font-size: 26px;
   }
 
-  @include color-modifiers('.pybr-button', $dark-blue, $python-yellow);
+  @include color-modifiers('.pybr-button', $dark-blue, $python-yellow, $python-blue);
 }
 
 .pybr-button-large {
@@ -42,7 +47,7 @@
   font-size: 30px;
   font-weight: 700;
   height: 140px;
-  @include color-modifiers('.pybr-button-large', $dark-blue, $python-yellow);
+  @include color-modifiers('.pybr-button-large', $dark-blue, $python-yellow, $python-blue);
 
 }
 
