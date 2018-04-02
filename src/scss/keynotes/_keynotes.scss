@@ -58,6 +58,11 @@
         order: 2;
       }
     }
+    &:nth-child(even) {
+      .keynote__summary__body {
+        text-align: right;
+      }
+    }
   }
 }
 

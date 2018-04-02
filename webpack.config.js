@@ -16,6 +16,7 @@ module.exports = {
       'scss': path.resolve(__dirname, 'src/scss'),
       'templates': path.resolve(__dirname, 'src/templates'),
       'img': path.resolve(__dirname, 'src/img'),
+      'webfonts': path.resolve(__dirname, 'src/webfonts')
     }
   },
   devtool: 'source-map',
@@ -40,7 +41,7 @@ module.exports = {
         ]
       },
       {
-        test:  /\.(jpe?g|png|gif|svg|obj|mtl)$/i,
+        test:  /\.(jpe?g|png|gif|svg|obj|mtl|woff2?|ttf|eot)$/i,
         use: [{
           loader: 'file-loader'
         }]
